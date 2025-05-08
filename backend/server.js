@@ -21,7 +21,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "https://eshop-yq6l.onrender.com/", // Replace with your actual frontend URL
+    origin: "https://eshop-yq6l.onrender.com", // Replace with your actual frontend URL
     credentials: true,
   })
 );

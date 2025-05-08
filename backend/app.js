@@ -6,9 +6,10 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://eshop-yq6l.orender.com',],
+  origin: ['http://localhost:3000', 'https://eshop-yq6l.onrender.com/'],
   credentials: true
 }));
+
 
 app.use(express.json());
 app.use(cookieParser());

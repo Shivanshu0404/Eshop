@@ -17,14 +17,7 @@ if (process.env.NODE_ENV !== "production") {
 
 // connect db
 connectDatabase();
-const cors = require("cors");
 
-app.use(
-  cors({
-    origin: "https://eshop-yq6l.onrender.com", // Replace with your actual frontend URL
-    credentials: true,
-  })
-);
 
 
 cloudinary.config({

@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://eshop-yq6l.orender.com/',],
+  origin: ['https://eshop-yq6l.orender.com',],
   credentials: true
 }));
 
